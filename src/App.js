@@ -5,7 +5,7 @@ import Html from './htmlelememt';
 
 function App({name}) {
   return <div >
-            <div >
+            <div className="App">
               Hello <strong> {name} </strong>
             </div>
             <div>
