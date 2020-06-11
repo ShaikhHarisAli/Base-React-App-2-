@@ -38,4 +38,4 @@ jobs:
       run: npm install --global surge
     
     - name: Deploy to surge
-      run: surge ./build bootcamp_react_project2.surge.sh --token ${{ secrets.REACT_APP_TOKEN_2 }}
+      run: surge ./build bootcamp_react_project_2.surge.sh --token ${{ secrets.REACT_APP_TOKEN_2 }}
