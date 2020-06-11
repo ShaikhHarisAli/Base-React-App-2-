@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Html from './htmlelememt';
 
 
 function App({name}) {
   return <div >
-            <div className="App">
+            <div >
               Hello <strong> {name} </strong>
             </div>
             <div>
