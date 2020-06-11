@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Add from './Addition'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div> 
+    <App name="Shaikh Haris Ali"/ >
+    {/* Addition */}
+    <Add num1={10} num2={14}/>
+  </div>,
+  
   document.getElementById('root')
 );
 
